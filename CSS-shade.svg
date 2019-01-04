@@ -1,0 +1,59 @@
+<svg version="1.1" width="275" height="312.5" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient x1=".05" y1=".98" x2=".78" y2=".01" id="e" href="#a"/>
+    <linearGradient id="a">
+      <stop offset="0" stop-opacity=".5"/>
+      <stop offset="1" stop-opacity=".05"/>
+    </linearGradient>
+    <linearGradient x1="1.56" y1="-.55" x2=".06" y2=".55" id="g" href="#b"/>
+    <linearGradient id="b">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient x1=".88" y1=".21" x2=".09" y2="1.18" id="f" href="#c"/>
+    <linearGradient id="c">
+      <stop offset="0" stop-color="#dadada"/>
+      <stop offset=".35" stop-color="#f1f1f1"/>
+      <stop offset="1" stop-color="#f0f0f0"/>
+    </linearGradient><linearGradient x1=".63" y1=".33" x2="-.38" y2="1.33" id="h" href="#c"/>
+    <filter id="d">
+      <feGaussianBlur in="SourceAlpha" result="blur-out" stdDeviation="3"/>
+      <feOffset in="blur-out" result="the-shadow" dx="3" dy="3"/>
+    </filter>
+  </defs>
+  <path d="M-111.33-84.2V92.15H49.61V-40.12L9.37-84.2H-111.33z" transform="matrix(1.59178 0 0 1.62345 182.3 142.25)" filter="url(#d)" fill="url(#e)"/>
+  <path d="M-111.33-84.2V92.15H49.61V-40.12L9.37-84.2H-111.33z" transform="matrix(1.59178 0 0 1.62345 182.3 142.25)" fill="url(#f)" fill-rule="evenodd" stroke="#000" stroke-width=".51" stroke-opacity=".36"/>
+  <path d="M-107.83-72.17l-.73 161.64H49.45l.1-39.96C46 50.87 10.3.31-34.64 2.5c-44.98 2.17-33.34-68.14-73.2-74.66z" transform="matrix(1.59178 0 0 1.62345 182.3 142.25)" fill="url(#g)" fill-rule="evenodd"/>
+  <g transform="matrix(1.3 0 0 1.7 20 -23)" font-size="10" font-weight="700" stroke-width="1pt" font-family="courier new">
+    <text y="30.5">h1 { color: white;</text>
+    <text y="40.5"> background: orange;</text>
+    <text y="50.5"> border: 1px solid black;</text>
+    <text y="60.5"> padding: 0 0 0 0;</text>
+    <text y="70.5"> font-weight: bold;</text>
+    <text y="80.5">}</text>
+    <text y="90.5">/* begin: seaside-theme */</text>
+    <text y="110.5">body {</text>
+    <text y="120.5"> background-color:white;</text>
+    <text y="130.5"> color:black;</text>
+    <text y="140.5"> font-family:Arial,sans-serif;</text>
+    <text y="150.5"> margin: 0 4px 0 0;</text>
+    <text y="160.5"> border: 12px solid;</text>
+    <text y="170.5">}</text>
+  </g>
+  <path d="M48.97-40.12C36.84-43.7 21.12-43.2 9.25-41.15c2.05-13.15 2.3-29.64-.52-43.05l40.24 44.08z" transform="matrix(1.59178 0 0 1.62345 182.3 142.25)" fill="url(#h)" fill-rule="evenodd"/>
+  <g fill-rule="evenodd">
+    <path d="M271.16 304.18l-2-1.96-.04-24.05 2.04-1.97v27.98z" fill="#803300"/>
+    <path fill="#f60" d="M201.15 278.16h68.02v24.06h-68.02z"/>
+    <path d="M199.17 276.18h72l-2.04 1.98-67.97.03-2-2.01z" fill="#fca"/>
+    <path d="M199.17 304.18h72l-2.02-1.97h-68.01l-1.97 1.97z" fill="#520"/>
+    <path d="M201.16 302.2l-2 1.98v-28l1.99 1.98v24.04z" fill="#f95"/>
+</g>
+<g font-size="12" font-style="italic" font-weight="400" stroke-width="1pt" font-family="arial black" writing-mode="lr">
+  <text x="77.85" y="179.02" transform="matrix(2.10032 0 0 2.10032 45.94 -73.66)">
+    <tspan>CSS</tspan>
+  </text>
+  <text x="77.17" y="178.38" fill="#fffdfd" transform="matrix(2.10032 0 0 2.10032 45.94 -73.66)">
+    <tspan>CSS</tspan>
+  </text>
+</g>
+</svg>
